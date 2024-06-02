@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+
+        <div class="form-box">
+            <form class="form">
+              <span class="title">Create an Account</span>
+              <span class="subtitle">Sign up with your email address.</span>
+              <div class="form-container">
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" class="input" placeholder="Full Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="input" placeholder="Email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" class="input" placeholder="Password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
+              </div>
+              <button>Sign up</button>
+            </form>
+            <div class="form-section">
+              <p>Already have an account? <a href="login.html">Log in</a></p>
+            </div>
+          </div>
+          
+
+
+    <script src="script.js"> </script>
+</body>
+</html>
